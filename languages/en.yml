@@ -1,0 +1,9 @@
+navbar:
+  cate: 'categories'
+  tags: 'tags'
+  about: 'about'
+cate_page: 'Categories'
+tags_cloud: 'Tags'
+prev_page: 'prev_page'
+next_page: 'next_page'
+reproduce: 'Please Contact the Author before Reproduce.'

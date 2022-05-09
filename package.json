@@ -1,0 +1,17 @@
+{
+  "name": "hexo-theme-research",
+  "version": "0.0.1",
+  "description": "A hexo theme for researchers to record their thoughts.",
+  "author": "Jie Hua",
+  "license": "MIT",
+  "keywords": [
+    "hexo",
+    "hexo-theme",
+    "blog",
+    "research"
+  ],
+  "dependencies": {
+    "daisyui": "^2.14.1",
+    "tailwindcss": "^3.0.24"
+  }
+}

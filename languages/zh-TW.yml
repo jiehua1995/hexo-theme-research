@@ -1,0 +1,10 @@
+navbar:
+  cate: '分類'
+  tags: '標籤'
+  about: '關於'
+cate_page: '分類頁面'
+tags_cloud: '標籤雲'
+prev_page: '上一篇'
+next_page: '下一篇'
+reproduce: '轉載前請聯繫作者'
+readmore: 'Read More'

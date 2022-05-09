@@ -1,0 +1,9 @@
+navbar:
+  cate: '分类'
+  tags: '标签'
+  about: '关于'
+cate_page: '分类页面'
+tags_cloud: '标签云'
+prev_page: '上一篇'
+next_page: '下一篇'
+reproduce: '转载前请联系作者'

@@ -1,0 +1,24 @@
+# configuration document of hexo-theme-research
+# Custom nav
+title: "Research"
+author: Jie
+ico: 
+
+# menu list
+menu:
+  Home: /
+  resume: /resume/
+  tags: /tags/
+  categories: /categories/
+
+# Social media
+social:
+  GitHub: ""
+  Weibo: ""
+  Facebook: ""
+  Flickr: ""
+  Tumblr: ""
+
+# Custom Copyright
+mail: Jie.Hua@lmu.de
+copyright: All rights reserved @Jie
