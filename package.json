@@ -5,6 +5,7 @@
   "author": "Jie Hua",
   "license": "MIT",
   "scripts": {
+    "css generator": "npx tailwindcss -i ./source/css/input.css -o ./source/css/output.css --watch"
   },
   "keywords": [
     "hexo",
