@@ -7,9 +7,10 @@ ico:
 # menu list
 menu:
   Home: /
-  resume: /resume/
-  tags: /tags/
-  categories: /categories/
+  Resume: /resume/
+  Tags: /tags/
+  Categories: /categories/
+  Publications: /publications/
 
 # Social media
 social:

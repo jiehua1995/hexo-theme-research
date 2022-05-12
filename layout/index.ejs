@@ -1,1 +1,67 @@
-xxx
+
+  
+<h1>index.ejs</h1>
+
+<hr>
+Pages (manually create links):
+
+<p>
+  index.md | <a href="/page/index.html">/page/index.html</a>
+</p>
+<p>
+  page.md | <a href="/page/page.html">/page/page.html</a>
+</p>
+
+<hr>
+
+<p>Posts (use the page.posts variable)</p>
+
+<% (page.posts || []).forEach((post, index) => { %>
+  <p>
+    index: <%= index %> &emsp;
+    title: <%= post.title %> &emsp;
+    link: <a href="<%= url_for(post.path) %>"><%= post.path %></a>
+  </p>
+<% }) %>
+
+<hr>
+
+Pagination:  <%- paginator({
+  prev_text: '[previous page]',
+  next_text: '[next page]',
+}) %>
+
+<hr>
+
+
+<p>Category List helper</p>
+<%- list_categories() %>
+
+<hr>
+
+<p>Tag list helper</p>
+<%- list_tags() %>
+
+<hr>
+
+<p>Archive list helper</p>
+<%- list_archives() %>
+
+<hr>
+
+<p>Tag cloud helper</p>
+<%- tagcloud() %>
+
+<hr>
+
+<p>
+  Link to static resources: <br>
+
+  To link an image store it in the <b>mytheme/source/</b> folder and use the <b>url_for</b> function.
+
+  <br>
+
+  <img src="<%- url_for('/an-image.png') %>">
+</p>
+
+<hr>
