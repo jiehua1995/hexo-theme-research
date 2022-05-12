@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
-<%- is_home() ? 'homepage' : page.title -%>|<%- config.title -%>
+<%- is_home() ? 'Home' : page.title -%> | <%- config.title -%>
 </title>
 
 <!-- Dev CSS file -->
@@ -12,8 +12,10 @@
 
 <!-- Use CSS file -->
 <!-- loading…… -->
+<%- css('css/output.css') %>
 
-<link rel="stylesheet" href="<%- url_for('/blank-boilerplate.css') %>">
+<!-- Use js file -->
+<%- js({ src: 'https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js', integrity: 'foo', async: true }) %>
 
 
 </head>

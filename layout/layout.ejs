@@ -4,9 +4,11 @@
     <%- partial("common/head", {}, {cache: true}) %>
 
     <body>
+    <%- partial("common/navbar", {}, {cache: false}) %>
     <!-- load common navbar -->
     <!-- load index cards and side information -->
     <%- body %>
+    
     </body>
 
 </html>
