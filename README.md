@@ -4,9 +4,37 @@
 [![brahches](https://badgen.net/github/branches/jiehua1995/hexo-theme-research)](https://github.com/jiehua1995/hexo-theme-research/branches)
 
 A hexo-theme for researchers.
-It is not ready for users at precent.
+
+It is not ready for users at precent. Do not use it!!
 
 I am preparing it in my spare time.
+
+## Installation
+
+### git clone
+
+```bash
+git clone https://github.com/jiehua1995/hexo-theme-research.git themes/research
+```
+
+### npm
+
+```bash
+# Only available for Hexo 5.0.0 or later
+npm install hexo-theme-research
+```
+
+
+
+## Applying
+
+Change the \_config.yml file.
+
+```yaml
+theme: research
+```
+
+
 
 
 To-do list
