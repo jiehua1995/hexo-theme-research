@@ -4,6 +4,8 @@
   "description": "A hexo theme for researchers to record their thoughts.",
   "author": "Jie Hua",
   "license": "MIT",
+  "scripts": {
+  },
   "keywords": [
     "hexo",
     "hexo-theme",
@@ -15,3 +17,4 @@
     "tailwindcss": "^3.0.24"
   }
 }
+yar
