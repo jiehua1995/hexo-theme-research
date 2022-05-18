@@ -5,7 +5,9 @@
 
 A hexo-theme for researchers.
 
-It is not ready for users at precent. Do not use it!!
+
+| :exclamation:  **It is not ready for users at precent. Do not use it!!**  |
+|-----------------------------------------|
 
 I am preparing it in my spare time.
 
