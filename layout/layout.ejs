@@ -1,0 +1,18 @@
+<html>
+<head>
+    <%- partial('common/head') %>
+</head>
+<body>
+    <div class="drawer drawer-mobile">
+    <input id="my-drawer-2" type="checkbox" class="drawer-toggle">
+    <!-- drawer-content -->
+    <div class="drawer-content flex justify-center lg:justify-start">
+        <%- body %>
+    </div> 
+    <!-- drawer-side -->
+    <div class="drawer-side">
+        <%- partial('component/side') %>
+    </div>
+    
+</body>
+</html>

@@ -1,2 +1,19 @@
 # configuration file of hexo-theme-research
 
+# avatar
+avatar:
+  # https://en.gravatar.com/
+  global_avatar:
+    set: false
+    md5_hash: 205e460b479e2e5b48aec07710c08d50
+
+
+# social links
+fackbook:
+twitter:
+orcid:
+pubmed:
+
+
+# dev mode
+dev_mode: true
