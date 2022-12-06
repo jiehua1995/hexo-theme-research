@@ -1,19 +1,11 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./layout/**/*.{ejs,js,jsx,md,mdx,html}"],
+  content: ["./layout/**/*.{html,js,ejs}"],
   theme: {
     extend: {},
   },
-  // add daisyUI plugin
-  plugins: [require("daisyui")],
-  // daisyUI config (optional)
+  plugins: [require("daisyui"), require("@tailwindcss/typography")],
   daisyui: {
-    styled: true,
-    themes: true,
-    base: true,
-    utils: true,
-    logs: true,
-    rtl: false,
-    prefix: "",
-    darkTheme: "aqua",
+    themes: ["winter", "dark", "garden"],
   },
 }
